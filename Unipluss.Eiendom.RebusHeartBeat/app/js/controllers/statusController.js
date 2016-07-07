@@ -32,10 +32,12 @@ heartBeatApp.controller('statusController', function ($scope, $timeout, heartBea
                     ) {
                         $scope.lastBeats[i].AllOk = true;
                         $scope.lastBeats[i].statusText = 'Online';
+                        $scope.lastBeats[i].errorStatus = 0;
                     }
                     else {
+                        $scope.lastBeats[i].errorStatus = 2;
                         $scope.lastBeats[i].AllOk = false;
-                        $scope.lastBeats[i].statusText = errorMessage($scope.lastBeats[i]);
+                        $scope.lastBeats[i].statusText = errorMessage($scope.lastBeats[i], i);
                     }
                 }
 
@@ -55,9 +57,9 @@ heartBeatApp.controller('statusController', function ($scope, $timeout, heartBea
 
 
 
-    var errorMessage = function (message) {
-        var msg = "Feil: "
-
+    var errorMessage = function (message, messageNr) {
+        var msg = "Feil: ";
+        
         if (message.uaUrl != null && message.uaUrl != "Missing url") {
 
             if (!message.UniSqlOk) {
@@ -74,13 +76,13 @@ heartBeatApp.controller('statusController', function ($scope, $timeout, heartBea
             }
         }
         else {
-            msg = "Unialltid url mangler"
+            msg = "Unialltid url mangler";
+            $scope.lastBeats[messageNr].errorStatus = 1;
         }
 
         if (!message.RebusAlive) {
             msg = "Rebus offline!";
         }
-
         return msg;
     }
 });

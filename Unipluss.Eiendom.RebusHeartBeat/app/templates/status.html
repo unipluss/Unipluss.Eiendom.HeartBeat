@@ -2,7 +2,7 @@
     <md-card ng-class="{true:'normal', false:'warning'}[customer.RebusAlive]" style="width: 300px;" ng-repeat="customer in lastBeats">
         <md-button href="#/details/{{customer.Id}}/{{customer.CustomerName}}">
             <h3>{{customer.CustomerName}}</h3>
-            <md-card ng-class="{true:'allNormal', false:'warning'}[customer.AllOk]"> {{customer.statusText}} </md-card>
+            <md-card ng-class="{0:'allNormal',1:'missingUa', 2:'warning'}[customer.errorStatus]"> {{customer.statusText}} </md-card>
         </md-button>
     </md-card>
 

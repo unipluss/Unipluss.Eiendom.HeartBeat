@@ -20,11 +20,13 @@ namespace Unipluss.Eiendom.RebusHeartBeat.Dapper
                               "(SELECT DATEADD(hour,2,TimeStamp) as Time, KundeNr as Id, KundeNavn as CustomerName, " +
                               "(CASE WHEN DateDiff(MINUTE,TimeStamp,GETDATE()) > 6 THEN 0 ELSE 1 END) as RebusAlive, " +
                               "SqlOk, UniSqlOk, V3Ok, RedisOk, uaUrl," +
+                              "(CASE WHEN (SqlOk = 1 and UniSqlOk = 1 and V3Ok = 1 and RedisOk = 1) THEN 1 ELSE 0 END) as uaOk, " +
+                              "(CASE WHEN (uaURL is null or uaURL = 'Missing url') THEN 1 ELSE 0 END) as uaUndefined, " +
                               "ROW_NUMBER() " +
                               "OVER (PARTITION BY KundeNr ORDER BY [TimeStamp] DESC) " +
                               "AS RowNumber FROM heartbeat )" +
                               "SELECT * FROM cte WHERE RowNumber = 1" +
-                              "ORDER BY RebusAlive, SqlOk, UniSqlOk, V3Ok, RedisOk, CustomerName collate Danish_Norwegian_CI_AS";
+                              "ORDER BY RebusAlive, uaOk, uaUndefined, CustomerName collate Danish_Norwegian_CI_AS";
 
                     return db.Query<HeartBeat>(msg).ToList();
                 }

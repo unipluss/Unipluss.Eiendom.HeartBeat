@@ -35,6 +35,11 @@
     color: #37474F;
 }
 
+.missingUa{
+    color: #37474F;
+    background: #FFAB40;
+}
+
 .repeated-item{
     margin: 10px 10px;
     font-size: 14px;
