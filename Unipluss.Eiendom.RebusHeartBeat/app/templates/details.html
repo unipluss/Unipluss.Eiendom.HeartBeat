@@ -1,0 +1,43 @@
+<md-content class="md-padding" id="flexContainer">
+    <div class="md-padding cardContainer" layout="column">
+        <md-card id = "detailsCard">
+            <h2> {{customer.name}}</h2>
+            <h4><b>Kundenummer:</b> {{customer.id}} </h4>
+            <h4><b>UA Versjon:</b> {{messages[0].UAVersion}} </h4>
+            <!--<h4><b>{{messages[0].UAUrl}}</b></h4>-->
+            <br/>
+            <md-card ng-class="{true:'uaNormal', false:'warning'}[messages[0].RebusAlive]">
+                <div class="padding-small">Rebus</div>
+            </md-card>
+            <md-card ng-class="{true:'uaNormal', false:'warning'}[messages[0].RedisOk]">
+                <div class="padding-small">Redis </div>
+            </md-card>
+            <md-card ng-class="{true:'uaNormal', false:'warning'}[messages[0].SqlOk]">
+                <div class="padding-small">Sql </div>
+            </md-card>
+            <md-card ng-class="{true:'uaNormal', false:'warning'}[messages[0].UniSqlOk]">
+                <div class="padding-small">UniSql </div>
+            </md-card>
+            <md-card ng-class="{true:'uaNormal', false:'warning'}[messages[0].V3Ok]">
+                <div class="padding-small">V3 </div>
+            </md-card>
+        </md-card>
+        <br/>
+        <md-button class="md-raised md-primary buttonPrimary" md-colors="{background: 'teal'}" href="#/status">Tilbake</md-button>
+        <md-button class="md-raised md-primary buttonPrimary" md-colors="{background: 'teal'}" ng-href="{{messages[0].UAUrl}}">Besøk uniAlltid </md-button>
+    </div>
+
+    <md-list class="md-primary detailsList" flex>
+        <md-toolbar class="md-toolbar-tools md-accent">Siste Oppdateringer</md-toolbar>
+        <div ng-repeat="message in messages " class="repeated-item-outer ">
+            <div class="repeated-item">
+                <div flex = "50"><b>Oppdatert:</b> {{message.TimeStamp | date:'dd.MM.yyyy - HH:mm:ss'}}</div>
+                <div flex = "50"><b>Info:</b> {{message.Info}} </div>
+                <div flex = "50"><b>Maskin:</b> {{message.MachineName}} </div>
+                <div flex = "50"><b>Operativsystem:</b> {{message.Os}} </div>
+                <div flex = 100 ng-class="{true: '', false:'repeated-item-error'}[message.errorMessage == '']"> {{message.errorMessage}} </div>
+            </div>
+            <md-divider></md-divider>
+        </div>
+    </md-list>
+</md-content>

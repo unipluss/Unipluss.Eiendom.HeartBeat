@@ -1,0 +1,100 @@
+
+#frontContainer{
+    justify-content: center;
+    padding-top: 80px;
+    padding-bottom: 100px;
+}
+
+#detailsCard{
+    text-align: center;
+    align-content: center;
+    width: 80%;
+}
+
+.buttonPrimary{
+    width: 80%;
+}
+
+.warning{
+    background: #F44336;
+    color: whitesmoke;
+}
+
+.normal{
+    color: white;
+    background: #455A64;
+}
+
+.uaNormal{
+    color: white;
+    background: #4CAF50;
+}
+
+.allNormal{
+    background: lightcyan;
+    color: #37474F;
+}
+
+.repeated-item{
+    margin: 10px 10px;
+    font-size: 14px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.repeated-item div{
+    padding: 3px;
+}
+
+.repeated-item-error{
+    color: #F44336;
+    font-weight: bold;
+}
+
+.detailsList{
+    background: white;
+}
+
+#flexContainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.statusFooter{
+    position: fixed;
+    background: #607D8B;
+    color: white;
+    font-size: 16px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 7%;
+    justify-content: center;
+}
+
+.statusFooter p{
+    text-align: center;
+}
+
+.frontHeader{
+    position: fixed;
+    z-index: 1000;
+}
+
+.cardContainer{
+    width: 30%;
+    height: 80%;
+}
+
+.padding-small{
+    padding: 3px;
+}
+.repeated-item-outer{
+    justify-content: center;
+    margin: 10px 10px;
+}

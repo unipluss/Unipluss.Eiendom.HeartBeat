@@ -1,0 +1,18 @@
+<div class='md-padding' id="frontContainer" layout="row" layout-wrap>
+    <md-card ng-class="{true:'normal', false:'warning'}[customer.RebusAlive]" style="width: 300px;" ng-repeat="customer in lastBeats">
+        <md-button href="#/details/{{customer.Id}}/{{customer.CustomerName}}">
+            <h3>{{customer.CustomerName}}</h3>
+            <md-card ng-class="{true:'allNormal', false:'warning'}[customer.AllOk]"> {{customer.statusText}} </md-card>
+        </md-button>
+    </md-card>
+
+    <div class="md-toolbar-tools md-primary statusFooter">
+        <p flex>
+            Oldest update: {{delayedUpdate | date:'HH:mm:ss'}} - {{delayedUpdateName}}
+        </p>
+        <p flex>
+            Newest update:  {{lastUpdate | date:'HH:mm:ss'}} - {{lastUpdateName}}
+        </p>
+    </div>
+</div>
+

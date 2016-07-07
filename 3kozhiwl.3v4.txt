@@ -1,0 +1,22 @@
+﻿
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch master
+# Your branch is up-to-date with 'origin/master'.
+#
+# Changes to be committed:
+#	modified:   .vs/Unipluss.Eiendom.RebusHeartBeat/v14/.suo
+#	modified:   Unipluss.Eiendom.RebusHeartBeat/Dapper/HeartBeat.cs
+#	modified:   Unipluss.Eiendom.RebusHeartBeat/Dapper/HeartBeatRepository.cs
+#	modified:   Unipluss.Eiendom.RebusHeartBeat/Views/App/Index.cshtml
+#	modified:   Unipluss.Eiendom.RebusHeartBeat/Web.config
+#	modified:   Unipluss.Eiendom.RebusHeartBeat/app/js/controllers/statusController.js
+#	modified:   Unipluss.Eiendom.RebusHeartBeat/app/templates/details.html
+#	modified:   Unipluss.Eiendom.RebusHeartBeat/bin/Unipluss.Eiendom.RebusHeartBeat.dll
+#	modified:   Unipluss.Eiendom.RebusHeartBeat/bin/Unipluss.Eiendom.RebusHeartBeat.pdb
+#	modified:   Unipluss.Eiendom.RebusHeartBeat/index.html
+#	modified:   Unipluss.Eiendom.RebusHeartBeat/obj/Debug/Unipluss.Eiendom.RebusHeartBeat.csproj.FileListAbsolute.txt
+#	modified:   Unipluss.Eiendom.RebusHeartBeat/obj/Debug/Unipluss.Eiendom.RebusHeartBeat.dll
+#	modified:   Unipluss.Eiendom.RebusHeartBeat/obj/Debug/Unipluss.Eiendom.RebusHeartBeat.pdb
+#
+
