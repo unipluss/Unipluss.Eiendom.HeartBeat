@@ -82,6 +82,7 @@ heartBeatApp.controller('statusController', function ($scope, $timeout, heartBea
 
         if (!message.RebusAlive) {
             msg = "Rebus offline!";
+            $scope.lastBeats[messageNr].errorStatus = 2;
         }
         return msg;
     }
