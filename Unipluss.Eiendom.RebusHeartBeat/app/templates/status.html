@@ -1,4 +1,10 @@
 <div class='md-padding' id="frontContainer" layout="row" layout-wrap>
+    <div class= "loading-container" ng-show="isLoading" flex>
+        <md-progress-linear md-mode="query"></md-progress-linear>
+        <div class="bottom-block">
+            <span>Henter data...</span>
+        </div>
+  </div>
     <md-card ng-class="{true:'normal', false:'warning'}[customer.RebusAlive]" style="width: 300px;" ng-repeat="customer in lastBeats">
         <md-button href="#/details/{{customer.Id}}/{{customer.CustomerName}}">
             <h3>{{customer.CustomerName}}</h3>
@@ -12,6 +18,9 @@
         </p>
         <p flex>
             Newest update:  {{lastUpdate | date:'HH:mm:ss'}} - {{lastUpdateName}}
+        </p>
+        <p flex>
+            Last datarequest: {{lastRequest | date:'HH:mm:ss'}}
         </p>
     </div>
 </div>

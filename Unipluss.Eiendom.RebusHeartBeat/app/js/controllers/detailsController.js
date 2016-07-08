@@ -2,6 +2,8 @@
 
 heartBeatApp.controller('detailsController', function ($scope, $routeParams, heartBeatService) {
 
+    $scope.isLoading = true;
+
     $scope.customer = {
         id: $routeParams.Id,
         name: $routeParams.CustomerName,
@@ -14,7 +16,7 @@ heartBeatApp.controller('detailsController', function ($scope, $routeParams, hea
             for (var i = 0; i < $scope.messages.length; i++) {
                 $scope.messages[i].errorMessage = errorMessage($scope.messages[i]);
             }
-
+            $scope.isLoading = false;
         })
         .catch(function (response) { console.log(response) });
 

@@ -103,3 +103,13 @@
     justify-content: center;
     margin: 10px 10px;
 }
+
+.bottom-block{
+    padding: 25px;
+    text-align: center;   
+}
+
+.loading-container{
+    background: whitesmoke;
+    padding: 3px;
+}

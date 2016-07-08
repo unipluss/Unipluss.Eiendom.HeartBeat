@@ -6,7 +6,11 @@ heartBeatApp.factory("heartBeatService", function ($http) {
     return {
 
         getLastBeats: function () {
-            return $http.get(url);
+            return $http.get(url, {cache: true});
+        },
+
+        getLastBeatsFresh: function () {
+            return $http.get(url, {cache: false});
         },
         
         getCustomer: function (Id) {

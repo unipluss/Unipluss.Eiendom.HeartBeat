@@ -27,7 +27,7 @@
         <md-button class="md-raised md-primary buttonPrimary" md-colors="{background: 'teal'}" ng-href="{{messages[0].UAUrl}}">Besøk uniAlltid </md-button>
     </div>
 
-    <md-list class="md-primary detailsList" flex>
+    <md-list class="md-primary detailsList" flex ng-show="!isLoading">
         <md-toolbar class="md-toolbar-tools md-accent">Siste Oppdateringer</md-toolbar>
         <div ng-repeat="message in messages " class="repeated-item-outer ">
             <div class="repeated-item">
@@ -40,4 +40,12 @@
             <md-divider></md-divider>
         </div>
     </md-list>
+
+    <div class= "loading-container" ng-show="isLoading" flex>
+        <md-progress-linear md-mode="query"></md-progress-linear>
+        <div class="bottom-block">
+            <span>Henter kundedata...</span>
+        </div>
+  </div>
+
 </md-content>
