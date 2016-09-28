@@ -45,10 +45,10 @@
                 <div flex="100" ng-class="{true: '', false:'repeated-item-error'}[message.errorMessage == '']"> {{message.errorMessage}} </div>
                 <div flex="100"><b>Eiendom versjon:</b> {{message.Universion}} </div>
                 <div flex="100"><b>SQL versjon:</b> {{message.Sql_server_version}} </div>
-                <div flex="100"><b>Ledig RAM:</b> {{message.AvailableRam}} </div>
-                <div flex="100"><b>Rebus CPU:</b> {{message.CpuThisProcess}} </div>
-                <div flex="100"><b>Total CPU:</b> {{message.CpuTotal}} </div>
-                <div flex="100"><b>Ledig disk:</b> {{message.Disk}} </div>
+                <div flex="100"><b>Ledig RAM:</b> {{message.AvailableRam}} MB</div>
+                <div flex="100"><b>Rebus CPU:</b> {{message.CpuThisProcess}} %</div>
+                <div flex="100"><b>Total CPU:</b> {{message.CpuTotal}} % </div>
+                <div flex="100"><b>Ledig disk:</b> {{message.Disk}} GB </div>
             </div>
             <md-divider></md-divider>
         </div>
