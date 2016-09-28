@@ -1,9 +1,11 @@
 <md-content class="md-padding" id="flexContainer">
     <div class="md-padding cardContainer" layout="column">
-        <md-card id = "detailsCard">
+        <md-card id="detailsCard">
             <h2> {{customer.name}}</h2>
             <h4><b>Kundenummer:</b> {{customer.id}} </h4>
             <h4><b>UA Versjon:</b> {{messages[0].UAVersion}} </h4>
+            <h4><b>UE version:</b> {{messages[0].Universion}}</h4>
+
             <!--<h4><b>{{messages[0].UAUrl}}</b></h4>-->
             <br/>
             <md-card ng-class="{true:'uaNormal', false:'warning'}[messages[0].RebusAlive]">
@@ -21,7 +23,12 @@
             <md-card ng-class="{true:'uaNormal', false:'warning'}[messages[0].V3Ok]">
                 <div class="padding-small">V3 </div>
             </md-card>
-        </md-card>
+            <h4><b>SQL version:</b> {{messages[0].Sql_server_version}}</h4>
+            <h4><b>Ledig RAM:</b> {{messages[0].AvailableRam}} MB</h4>
+            <h4><b>Rebus CPU:</b> {{messages[0].CpuThisProcess}} %</h4>
+            <h4><b>Total CPU:</b> {{messages[0].CpuTotal}}%</h4>
+            <h4><b>Ledig disk:</b>{{messages[0].Disk}} </h4>
+            </md-card>
         <br/>
         <md-button class="md-raised md-primary buttonPrimary" md-colors="{background: 'teal'}" href="#/status">Tilbake</md-button>
         <md-button class="md-raised md-primary buttonPrimary" md-colors="{background: 'teal'}" ng-href="{{messages[0].UAUrl}}">Besøk uniAlltid </md-button>

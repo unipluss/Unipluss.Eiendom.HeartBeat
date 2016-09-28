@@ -4,6 +4,7 @@ using System.Configuration;
 using System.Data.SqlClient;
 using System.Linq;
 using Dapper;
+using Unipluss.Eiendom.RebusHeartBeat.Code;
 
 namespace Unipluss.Eiendom.RebusHeartBeat.Dapper
 {
@@ -13,13 +14,13 @@ namespace Unipluss.Eiendom.RebusHeartBeat.Dapper
         {
             try
             {
-                using (var db = new SqlConnection(ConfigurationManager.ConnectionStrings["conn"].ConnectionString))
+                using (SqlConnection db = new SqlConnection(ConfigurationManager.ConnectionStrings["conn"].ConnectionString))
                 {
                     db.Open();
-                    var msg = ";WITH cte AS " +
+                    string msg = ";WITH cte AS " +
                               "(SELECT DATEADD(hour,2,TimeStamp) as Time, KundeNr as Id, KundeNavn as CustomerName, " +
                               "(CASE WHEN DateDiff(MINUTE,TimeStamp,GETDATE()) > 6 THEN 0 ELSE 1 END) as RebusAlive, " +
-                              "SqlOk, UniSqlOk, V3Ok, RedisOk, uaUrl," +
+                              "SqlOk, UniSqlOk, V3Ok, RedisOk, uaUrl, universion, sql_server_version, [disk], cpuThisProcess, cpuTotal,	availableRam, " +
                               "(CASE WHEN (SqlOk = 1 and UniSqlOk = 1 and V3Ok = 1 and RedisOk = 1) THEN 1 ELSE 0 END) as uaOk, " +
                               "(CASE WHEN (uaURL is null or uaURL = 'Missing url') THEN 1 ELSE 0 END) as uaUndefined, " +
                               "ROW_NUMBER() " +
@@ -39,14 +40,15 @@ namespace Unipluss.Eiendom.RebusHeartBeat.Dapper
 
         public List<Message> GetDetails(int customerId)
         {
+            List<Message> items = null;
             try
             {
-                using (var db = new SqlConnection(ConfigurationManager.ConnectionStrings["conn"].ConnectionString))
+                using (SqlConnection db = new SqlConnection(ConfigurationManager.ConnectionStrings["conn"].ConnectionString))
                 {
                     db.Open();
 
-                    return db.Query<Message>("SELECT TOP 30 DATEADD(hour,2,TimeStamp) as TimeStamp, MachineName, Info, Os, " +
-                                             "UAUrl, SqlOk, UniSqlOk, V3Ok, RedisOk, UAVersion, UAUrl," +
+                   items = db.Query<Message>("SELECT TOP 30 DATEADD(hour,2,TimeStamp) as TimeStamp, MachineName, Info, Os, " +
+                                             "UAUrl, SqlOk, UniSqlOk, V3Ok, RedisOk, UAVersion, UAUrl, universion, sql_server_version, [disk], cpuThisProcess, cpuTotal, availableRam, " +
                                              "(CASE WHEN DateDiff(MINUTE, TimeStamp, GETDATE()) > 6 THEN 0 ELSE 1 END) as RebusAlive " +
                                              "FROM HeartBeat " +
                                               "WHERE KundeNr = @custId " +
@@ -56,7 +58,11 @@ namespace Unipluss.Eiendom.RebusHeartBeat.Dapper
             catch (Exception)
             {
                 return null;
-            }          
+            }
+            items.ForEach(x=> x.PoupulateDiskList());
+            items.ForEach(x=> x.CpuThisProcess = x.CpuThisProcess.ToTwoDecimal());
+            items.ForEach(x => x.CpuTotal = x.CpuTotal.ToTwoDecimal());
+            return items;
         }
     }
 }
