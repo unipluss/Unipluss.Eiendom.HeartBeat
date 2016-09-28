@@ -254,6 +254,5 @@ D:\Projects\Git\Unipluss.Eiendom.HeartBeat\Unipluss.Eiendom.RebusHeartBeat\bin\S
 D:\Projects\Git\Unipluss.Eiendom.HeartBeat\Unipluss.Eiendom.RebusHeartBeat\bin\System.Web.WebPages.Deployment.xml
 D:\Projects\Git\Unipluss.Eiendom.HeartBeat\Unipluss.Eiendom.RebusHeartBeat\bin\System.Web.WebPages.Razor.xml
 D:\Projects\Git\Unipluss.Eiendom.HeartBeat\Unipluss.Eiendom.RebusHeartBeat\bin\Antlr3.Runtime.pdb
-D:\Projects\Git\Unipluss.Eiendom.HeartBeat\Unipluss.Eiendom.RebusHeartBeat\obj\Debug\Unipluss.Eiendom.RebusHeartBeat.csprojResolveAssemblyReference.cache
 D:\Projects\Git\Unipluss.Eiendom.HeartBeat\Unipluss.Eiendom.RebusHeartBeat\obj\Debug\Unipluss.Eiendom.RebusHeartBeat.dll
 D:\Projects\Git\Unipluss.Eiendom.HeartBeat\Unipluss.Eiendom.RebusHeartBeat\obj\Debug\Unipluss.Eiendom.RebusHeartBeat.pdb
