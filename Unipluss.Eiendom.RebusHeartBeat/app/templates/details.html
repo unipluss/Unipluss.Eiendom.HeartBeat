@@ -4,10 +4,10 @@
             <h2> {{customer.name}}</h2>
             <h4><b>Kundenummer:</b> {{customer.id}} </h4>
             <h4><b>UA Versjon:</b> {{messages[0].UAVersion}} </h4>
-            <h4><b>UE version:</b> {{messages[0].Universion}}</h4>
+            <h4><b>Eiendom version:</b> {{messages[0].Universion}}</h4>
 
             <!--<h4><b>{{messages[0].UAUrl}}</b></h4>-->
-            <br/>
+            <br />
             <md-card ng-class="{true:'uaNormal', false:'warning'}[messages[0].RebusAlive]">
                 <div class="padding-small">Rebus</div>
             </md-card>
@@ -28,8 +28,8 @@
             <h4><b>Rebus CPU:</b> {{messages[0].CpuThisProcess}} %</h4>
             <h4><b>Total CPU:</b> {{messages[0].CpuTotal}}%</h4>
             <h4><b>Ledig disk:</b>{{messages[0].Disk}} </h4>
-            </md-card>
-        <br/>
+        </md-card>
+        <br />
         <md-button class="md-raised md-primary buttonPrimary" md-colors="{background: 'teal'}" href="#/status">Tilbake</md-button>
         <md-button class="md-raised md-primary buttonPrimary" md-colors="{background: 'teal'}" ng-href="{{messages[0].UAUrl}}">Besøk uniAlltid </md-button>
     </div>
@@ -38,21 +38,27 @@
         <md-toolbar class="md-toolbar-tools md-accent">Siste Oppdateringer</md-toolbar>
         <div ng-repeat="message in messages " class="repeated-item-outer ">
             <div class="repeated-item">
-                <div flex = "50"><b>Oppdatert:</b> {{message.TimeStamp | date:'dd.MM.yyyy - HH:mm:ss'}}</div>
-                <div flex = "50"><b>Info:</b> {{message.Info}} </div>
-                <div flex = "50"><b>Maskin:</b> {{message.MachineName}} </div>
-                <div flex = "50"><b>Operativsystem:</b> {{message.Os}} </div>
-                <div flex = 100 ng-class="{true: '', false:'repeated-item-error'}[message.errorMessage == '']"> {{message.errorMessage}} </div>
+                <div flex="50"><b>Oppdatert:</b> {{message.TimeStamp | date:'dd.MM.yyyy - HH:mm:ss'}}</div>
+                <div flex="50"><b>Info:</b> {{message.Info}} </div>
+                <div flex="50"><b>Maskin:</b> {{message.MachineName}} </div>
+                <div flex="50"><b>Operativsystem:</b> {{message.Os}} </div>
+                <div flex="100" ng-class="{true: '', false:'repeated-item-error'}[message.errorMessage == '']"> {{message.errorMessage}} </div>
+                <div flex="100"><b>Eiendom versjon:</b> {{message.Universion}} </div>
+                <div flex="100"><b>SQL versjon:</b> {{message.Sql_server_version}} </div>
+                <div flex="100"><b>Ledig RAM:</b> {{message.AvailableRam}} </div>
+                <div flex="100"><b>Rebus CPU:</b> {{message.CpuThisProcess}} </div>
+                <div flex="100"><b>Total CPU:</b> {{message.CpuTotal}} </div>
+                <div flex="100"><b>Ledig disk:</b> {{message.Disk}} </div>
             </div>
             <md-divider></md-divider>
         </div>
     </md-list>
 
-    <div class= "loading-container" ng-show="isLoading" flex>
+    <div class="loading-container" ng-show="isLoading" flex>
         <md-progress-linear md-mode="query"></md-progress-linear>
         <div class="bottom-block">
             <span>Henter kundedata...</span>
         </div>
-  </div>
+    </div>
 
 </md-content>
