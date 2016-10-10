@@ -321,3 +321,4 @@ C:\Git\Unipluss.Eiendom.HeartBeat\Unipluss.Eiendom.RebusHeartBeat\bin\Antlr3.Run
 C:\Git\Unipluss.Eiendom.HeartBeat\Unipluss.Eiendom.RebusHeartBeat\obj\Debug\Unipluss.Eiendom.RebusHeartBeat.csprojResolveAssemblyReference.cache
 C:\Git\Unipluss.Eiendom.HeartBeat\Unipluss.Eiendom.RebusHeartBeat\obj\Debug\Unipluss.Eiendom.RebusHeartBeat.dll
 C:\Git\Unipluss.Eiendom.HeartBeat\Unipluss.Eiendom.RebusHeartBeat\obj\Debug\Unipluss.Eiendom.RebusHeartBeat.pdb
+D:\Projects\Git\Unipluss.Eiendom.HeartBeat\Unipluss.Eiendom.RebusHeartBeat\obj\Debug\Unipluss.Eiendom.RebusHeartBeat.csprojResolveAssemblyReference.cache
