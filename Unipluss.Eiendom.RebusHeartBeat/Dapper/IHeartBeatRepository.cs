@@ -1,12 +1,10 @@
 ﻿using System.Collections.Generic;
 
-
 namespace Unipluss.Eiendom.RebusHeartBeat.Dapper
 {
-    interface IHeartBeatRepository
+    public interface IHeartBeatRepository
     {
         List<HeartBeat> GetLastBeats();
-
         List<Message> GetDetails(int customerId);
     }
 }

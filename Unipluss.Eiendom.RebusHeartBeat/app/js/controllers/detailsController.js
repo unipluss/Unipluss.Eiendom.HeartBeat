@@ -35,6 +35,9 @@ heartBeatApp.controller('detailsController', function ($scope, $routeParams, hea
         if (!message.SqlOk) {
             msg += " Sql";
         }
+        if (!message.UaRebusOk) {
+            msg += " Ua rebus";
+        }
         if (msg != "") {
             msg = "Feil: " + msg;
         }

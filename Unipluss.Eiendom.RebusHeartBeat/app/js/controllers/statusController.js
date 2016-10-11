@@ -26,7 +26,8 @@ heartBeatApp.controller('statusController', function ($scope, $timeout, heartBea
                 $scope.lastBeats[i].UniSqlOk &&
                 $scope.lastBeats[i].V3Ok &&
                 $scope.lastBeats[i].RedisOk &&
-                $scope.lastBeats[i].SqlOk
+                $scope.lastBeats[i].SqlOk &&
+                $scope.lastBeats[i].UaRebusOk
             ) {
                 $scope.lastBeats[i].AllOk = true;
                 $scope.lastBeats[i].statusText = 'Online';
@@ -96,6 +97,9 @@ heartBeatApp.controller('statusController', function ($scope, $timeout, heartBea
             }
             if (!message.SqlOk) {
                 msg += " Sql";
+            }
+            if (!message.UaRebusOk) {
+                msg += " Ua rebus";
             }
         }
         else {

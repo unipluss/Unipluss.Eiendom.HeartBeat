@@ -19,5 +19,6 @@ namespace Unipluss.Eiendom.RebusHeartBeat.Dapper
         public string CpuThisProcess { get; set; }
         public string CpuTotal { get; set; }
         public string AvailableRam { get; set; }
+        public bool UaRebusOk { get; set; }
     }
 }
