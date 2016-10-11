@@ -30,7 +30,7 @@ heartBeatApp.controller('statusController', function ($scope, $timeout, heartBea
                 $scope.lastBeats[i].UaRebusOk
             ) {
                 $scope.lastBeats[i].AllOk = true;
-                $scope.lastBeats[i].statusText = 'Online';
+                $scope.lastBeats[i].statusText = 'Rebus og UA Online';
                 $scope.lastBeats[i].errorStatus = 0;
             }
             else {
@@ -103,7 +103,7 @@ heartBeatApp.controller('statusController', function ($scope, $timeout, heartBea
             }
         }
         else {
-            msg = "Unialltid url mangler";
+            msg = "Rebus online";
             $scope.lastBeats[messageNr].errorStatus = 1;
         }
 

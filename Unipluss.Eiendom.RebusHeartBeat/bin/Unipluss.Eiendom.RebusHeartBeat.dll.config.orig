@@ -19,9 +19,15 @@
   </system.web>
   <system.webServer>
     <security>
+<<<<<<< HEAD
+      <!--<ipSecurity allowUnlisted="false" denyAction="NotFound">
+        <add ipAddress="85.200.248.222" allowed="true"/>
+      </ipSecurity>-->
+=======
       <ipSecurity allowUnlisted="false" denyAction="NotFound">
         <add ipAddress="85.200.248.222" allowed="true"/>
       </ipSecurity>
+>>>>>>> 3621c92ea188a7bb8f40685142859ef55ac2f148
     </security>
     <handlers>
       <remove name="ExtensionlessUrlHandler-Integrated-4.0" />

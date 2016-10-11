@@ -25,7 +25,7 @@ namespace Unipluss.Eiendom.RebusHeartBeat.Dapper
                               "(CASE WHEN (uaURL is null or uaURL = 'Missing url') THEN 1 ELSE 0 END) as uaUndefined, " +
                               "ROW_NUMBER() " +
                               "OVER (PARTITION BY KundeNr ORDER BY [TimeStamp] DESC) " +
-                              "AS RowNumber FROM heartbeat where DateDiff(DAY,TimeStamp,GETDATE()) < 1)" +
+                              "AS RowNumber FROM heartbeat where DateDiff(DAY,TimeStamp,GETDATE()) < 7)" +
                               "SELECT * FROM cte WHERE RowNumber = 1" +
                               "ORDER BY RebusAlive, uaOk, uaUndefined, CustomerName collate Danish_Norwegian_CI_AS";
 
