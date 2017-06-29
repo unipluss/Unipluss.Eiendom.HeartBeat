@@ -31,6 +31,8 @@
             <h4><b>Rebus CPU:</b> {{messages[0].CpuThisProcess}} %</h4>
             <h4><b>Total CPU:</b> {{messages[0].CpuTotal}}%</h4>
             <h4><b>Ledig disk:</b>{{messages[0].Disk}} </h4>
+            <h4><b>Antall boliger:</b> {{message.AntallBoliger}}</h4>
+            <h4><b>Antall inaktive boliger:</b> {{message.AntallBoligerInaktive}}</h4>
         </md-card>
         <br />
         <md-button class="md-raised md-primary buttonPrimary" md-colors="{background: 'teal'}" href="#/status">Tilbake</md-button>
@@ -51,7 +53,9 @@
                 <div flex="100"><b>Ledig RAM:</b> {{message.AvailableRam}} MB</div>
                 <div flex="100"><b>Rebus CPU:</b> {{message.CpuThisProcess}} %</div>
                 <div flex="100"><b>Total CPU:</b> {{message.CpuTotal}} % </div>
-                <div flex="100"><b>Ledig disk:</b> {{message.Disk}} GB </div>
+                <div flex="100"><b>Ledig disk:</b> {{message.Disk}} </div>
+                <div flex="100"><b>Antall boliger:</b> {{message.AntallBoliger}}</div>
+                <div flex="100"><b>Antall inaktive boliger:</b> {{message.AntallBoligerInaktive}}</div>
             </div>
             <md-divider></md-divider>
         </div>

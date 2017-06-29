@@ -1,7 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c3bc6327-9bbe-4a04-a2d7-a95174fb2d56" name="Default" comment="" />
+    <list default="true" id="c3bc6327-9bbe-4a04-a2d7-a95174fb2d56" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/Dapper.1.42/Dapper.1.42.nupkg" afterPath="$PROJECT_DIR$/packages/Dapper.1.42/Dapper.1.42.nupkg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Unipluss.Eiendom.RebusHeartBeat/Dapper/HeartBeat.cs" afterPath="$PROJECT_DIR$/Unipluss.Eiendom.RebusHeartBeat/Dapper/HeartBeat.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Unipluss.Eiendom.RebusHeartBeat/Dapper/HeartBeatRepository.cs" afterPath="$PROJECT_DIR$/Unipluss.Eiendom.RebusHeartBeat/Dapper/HeartBeatRepository.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Unipluss.Eiendom.RebusHeartBeat/Dapper/Message.cs" afterPath="$PROJECT_DIR$/Unipluss.Eiendom.RebusHeartBeat/Dapper/Message.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Unipluss.Eiendom.RebusHeartBeat/Web.config" afterPath="$PROJECT_DIR$/Unipluss.Eiendom.RebusHeartBeat/Web.config" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Unipluss.Eiendom.RebusHeartBeat/app/js/controllers/statusController.js" afterPath="$PROJECT_DIR$/Unipluss.Eiendom.RebusHeartBeat/app/js/controllers/statusController.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Unipluss.Eiendom.RebusHeartBeat/app/templates/details.html" afterPath="$PROJECT_DIR$/Unipluss.Eiendom.RebusHeartBeat/app/templates/details.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Unipluss.Eiendom.RebusHeartBeat/bin/Unipluss.Eiendom.RebusHeartBeat.dll.config" afterPath="$PROJECT_DIR$/Unipluss.Eiendom.RebusHeartBeat/bin/Unipluss.Eiendom.RebusHeartBeat.dll.config" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Unipluss.Eiendom.RebusHeartBeat/index.html" afterPath="$PROJECT_DIR$/Unipluss.Eiendom.RebusHeartBeat/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Unipluss.Eiendom.RebusHeartBeat/obj/Debug/Unipluss.Eiendom.RebusHeartBeat.csproj.FileListAbsolute.txt" afterPath="$PROJECT_DIR$/Unipluss.Eiendom.RebusHeartBeat/obj/Debug/Unipluss.Eiendom.RebusHeartBeat.csproj.FileListAbsolute.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/Angular.Material.1.0.9/content/Content/angular-material.css" afterPath="$PROJECT_DIR$/packages/Angular.Material.1.0.9/content/Content/angular-material.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/Angular.Material.1.0.9/content/Content/angular-material.layouts.css" afterPath="$PROJECT_DIR$/packages/Angular.Material.1.0.9/content/Content/angular-material.layouts.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/Angular.Material.1.0.9/content/Content/angular-material.layouts.min.css" afterPath="$PROJECT_DIR$/packages/Angular.Material.1.0.9/content/Content/angular-material.layouts.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/Angular.Material.1.0.9/content/Content/angular-material.min.css" afterPath="$PROJECT_DIR$/packages/Angular.Material.1.0.9/content/Content/angular-material.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/Angular.Material.1.0.9/content/Scripts/angular-animate/angular-animate.js" afterPath="$PROJECT_DIR$/packages/Angular.Material.1.0.9/content/Scripts/angular-animate/angular-animate.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/Angular.Material.1.0.9/content/Scripts/angular-animate/angular-animate.min.js" afterPath="$PROJECT_DIR$/packages/Angular.Material.1.0.9/content/Scripts/angular-animate/angular-animate.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/Angular.Material.1.0.9/content/Scripts/angular-animate/angular-animate.min.js.map" afterPath="$PROJECT_DIR$/packages/Angular.Material.1.0.9/content/Scripts/angular-animate/angular-animate.min.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/Angular.Material.1.0.9/content/Scripts/angular-aria/angular-aria.js" afterPath="$PROJECT_DIR$/packages/Angular.Material.1.0.9/content/Scripts/angular-aria/angular-aria.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/Angular.Material.1.0.9/content/Scripts/angular-aria/angular-aria.min.js" afterPath="$PROJECT_DIR$/packages/Angular.Material.1.0.9/content/Scripts/angular-aria/angular-aria.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/Angular.Material.1.0.9/content/Scripts/angular-aria/angular-aria.min.js.map" afterPath="$PROJECT_DIR$/packages/Angular.Material.1.0.9/content/Scripts/angular-aria/angular-aria.min.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/Angular.Material.1.0.9/content/Scripts/angular-material/angular-material-mocks.js" afterPath="$PROJECT_DIR$/packages/Angular.Material.1.0.9/content/Scripts/angular-material/angular-material-mocks.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/Angular.Material.1.0.9/content/Scripts/angular-material/angular-material.js" afterPath="$PROJECT_DIR$/packages/Angular.Material.1.0.9/content/Scripts/angular-material/angular-material.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/Angular.Material.1.0.9/content/Scripts/angular-material/angular-material.min.js" afterPath="$PROJECT_DIR$/packages/Angular.Material.1.0.9/content/Scripts/angular-material/angular-material.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/Modernizr.2.6.2/Content/Scripts/modernizr-2.6.2.js" afterPath="$PROJECT_DIR$/packages/Modernizr.2.6.2/Content/Scripts/modernizr-2.6.2.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/Respond.1.2.0/content/Scripts/respond.js" afterPath="$PROJECT_DIR$/packages/Respond.1.2.0/content/Scripts/respond.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/Respond.1.2.0/content/Scripts/respond.min.js" afterPath="$PROJECT_DIR$/packages/Respond.1.2.0/content/Scripts/respond.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/WebGrease.1.5.2/tools/install.ps1" afterPath="$PROJECT_DIR$/packages/WebGrease.1.5.2/tools/install.ps1" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/WebGrease.1.5.2/tools/uninstall.ps1" afterPath="$PROJECT_DIR$/packages/WebGrease.1.5.2/tools/uninstall.ps1" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/bootstrap.3.0.0/Content/Content/bootstrap-theme.css" afterPath="$PROJECT_DIR$/packages/bootstrap.3.0.0/Content/Content/bootstrap-theme.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/bootstrap.3.0.0/content/Content/bootstrap.css" afterPath="$PROJECT_DIR$/packages/bootstrap.3.0.0/content/Content/bootstrap.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/bootstrap.3.0.0/content/Content/bootstrap.min.css" afterPath="$PROJECT_DIR$/packages/bootstrap.3.0.0/content/Content/bootstrap.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/bootstrap.3.0.0/content/Scripts/bootstrap.js" afterPath="$PROJECT_DIR$/packages/bootstrap.3.0.0/content/Scripts/bootstrap.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/bootstrap.3.0.0/content/Scripts/bootstrap.min.js" afterPath="$PROJECT_DIR$/packages/bootstrap.3.0.0/content/Scripts/bootstrap.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/bootstrap.3.0.0/content/fonts/glyphicons-halflings-regular.svg" afterPath="$PROJECT_DIR$/packages/bootstrap.3.0.0/content/fonts/glyphicons-halflings-regular.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/jQuery.1.10.2/Content/Scripts/jquery-1.10.2.js" afterPath="$PROJECT_DIR$/packages/jQuery.1.10.2/Content/Scripts/jquery-1.10.2.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/jQuery.1.10.2/Content/Scripts/jquery-1.10.2.min.js" afterPath="$PROJECT_DIR$/packages/jQuery.1.10.2/Content/Scripts/jquery-1.10.2.min.js" />
+    </list>
     <ignored path="Unipluss.Eiendom.RebusHeartBeat.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -11,7 +49,6 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
@@ -19,8 +56,89 @@
   <component name="FavoritesManager">
     <favorites_list name="Unipluss.Eiendom.RebusHeartBeat" />
   </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="details.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Unipluss.Eiendom.RebusHeartBeat/app/templates/details.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="215">
+              <caret line="30" column="48" lean-forward="false" selection-start-line="30" selection-start-column="48" selection-end-line="30" selection-end-column="48" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HeartBeat.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Unipluss.Eiendom.RebusHeartBeat/Dapper/HeartBeat.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" column="22" lean-forward="false" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HeartBeatRepository.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Unipluss.Eiendom.RebusHeartBeat/Dapper/HeartBeatRepository.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="484">
+              <caret line="63" column="32" lean-forward="false" selection-start-line="63" selection-start-column="32" selection-end-line="63" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Message.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Unipluss.Eiendom.RebusHeartBeat/Dapper/Message.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="27" column="1" lean-forward="true" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="statusController.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Unipluss.Eiendom.RebusHeartBeat/app/js/controllers/statusController.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-476">
+              <caret line="50" column="30" lean-forward="true" selection-start-line="50" selection-start-column="30" selection-end-line="50" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="heartBeatService.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Unipluss.Eiendom.RebusHeartBeat/app/js/services/heartBeatService.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="21" column="2" lean-forward="true" selection-start-line="21" selection-start-column="2" selection-end-line="21" selection-end-column="2" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>getFreshValues</find>
+      <find>CpuThisProcess</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Unipluss.Eiendom.RebusHeartBeat/app/js/controllers/statusController.js" />
+        <option value="$PROJECT_DIR$/Unipluss.Eiendom.RebusHeartBeat/Dapper/HeartBeat.cs" />
+        <option value="$PROJECT_DIR$/Unipluss.Eiendom.RebusHeartBeat/app/templates/details.html" />
+        <option value="$PROJECT_DIR$/Unipluss.Eiendom.RebusHeartBeat/Dapper/HeartBeatRepository.cs" />
+        <option value="$PROJECT_DIR$/Unipluss.Eiendom.RebusHeartBeat/Dapper/Message.cs" />
+      </list>
+    </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -28,20 +146,14 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-9" />
-    <option name="width" value="2578" />
-    <option name="height" value="1408" />
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/Unipluss.Eiendom.RebusHeartBeat/app/vendors/node_modules" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
-    <OptionsSetting value="true" id="Add" />
-    <OptionsSetting value="true" id="Remove" />
-    <OptionsSetting value="true" id="Checkout" />
-    <OptionsSetting value="true" id="Update" />
-    <OptionsSetting value="true" id="Status" />
-    <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
-    <ConfirmationsSetting value="0" id="Remove" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1176" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -58,16 +170,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Unipluss.Eiendom.HeartBeat" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="Unipluss.Eiendom.HeartBeat" />
@@ -110,6 +216,102 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Unipluss.Eiendom.HeartBeat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Unipluss.Eiendom.HeartBeat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Unipluss.Eiendom.RebusHeartBeat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Unipluss.Eiendom.HeartBeat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Unipluss.Eiendom.HeartBeat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Unipluss.Eiendom.RebusHeartBeat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Unipluss.Eiendom.HeartBeat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Unipluss.Eiendom.HeartBeat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Unipluss.Eiendom.RebusHeartBeat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="services" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Unipluss.Eiendom.HeartBeat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Unipluss.Eiendom.HeartBeat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Unipluss.Eiendom.RebusHeartBeat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -146,10 +348,16 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
-      <command value="run-script" />
+      <command value="run" />
       <scripts />
       <node-interpreter value="project" />
       <envs />
@@ -181,33 +389,37 @@
       <updated>1467098866217</updated>
       <workItem from="1467098867887" duration="22000" />
       <workItem from="1467885117796" duration="29000" />
+      <workItem from="1498715515586" duration="1681000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51000" />
+    <option name="totallyTimeSpent" value="1732000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="0" width="2578" height="1408" extended-state="0" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13476562" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18018967" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32981783" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -215,5 +427,55 @@
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Unipluss.Eiendom.RebusHeartBeat/app/templates/details.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="30" column="48" lean-forward="false" selection-start-line="30" selection-start-column="48" selection-end-line="30" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Unipluss.Eiendom.RebusHeartBeat/Dapper/HeartBeat.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="22" lean-forward="false" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Unipluss.Eiendom.RebusHeartBeat/Dapper/HeartBeatRepository.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="63" column="32" lean-forward="false" selection-start-line="63" selection-start-column="32" selection-end-line="63" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Unipluss.Eiendom.RebusHeartBeat/Dapper/Message.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="1" lean-forward="true" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Unipluss.Eiendom.RebusHeartBeat/app/js/controllers/statusController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-476">
+          <caret line="50" column="30" lean-forward="true" selection-start-line="50" selection-start-column="30" selection-end-line="50" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Unipluss.Eiendom.RebusHeartBeat/app/js/services/heartBeatService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="2" lean-forward="true" selection-start-line="21" selection-start-column="2" selection-end-line="21" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>

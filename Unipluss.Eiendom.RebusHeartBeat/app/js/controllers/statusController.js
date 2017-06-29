@@ -7,7 +7,6 @@ heartBeatApp.controller('statusController', function ($scope, $timeout, heartBea
     $scope.isLoading = true;
 
     function updateValues() {
-
         var dateLast = $scope.lastBeats[0].Time;
         var dateDelay = $scope.lastBeats[0].Time;
         var customerLastUpdated = $scope.lastBeats[0].CustomerName;
@@ -68,7 +67,6 @@ heartBeatApp.controller('statusController', function ($scope, $timeout, heartBea
     function getFreshValues() {
         heartBeatService.getLastBeatsFresh()
             .then(function (response) {
-
                 $scope.lastBeats = response.data;
                 updateValues();
 

@@ -32,7 +32,7 @@ namespace Unipluss.Eiendom.RebusHeartBeat.Dapper
                     return db.Query<HeartBeat>(msg).ToList();
                 }
             }
-            catch (Exception)
+            catch (Exception ex)
             {
                 return null;
             }
@@ -50,12 +50,13 @@ namespace Unipluss.Eiendom.RebusHeartBeat.Dapper
                    items = db.Query<Message>("SELECT TOP 30 DATEADD(hour,2,TimeStamp) as TimeStamp, MachineName, Info, Os, " +
                                              "UAUrl, SqlOk, UniSqlOk, V3Ok, RedisOk, UAVersion, UAUrl, universion, sql_server_version, [disk], cpuThisProcess, cpuTotal, availableRam, UaRebusOk, " +
                                              "(CASE WHEN DateDiff(MINUTE, TimeStamp, GETDATE()) > 6 THEN 0 ELSE 1 END) as RebusAlive " +
-                                             "FROM HeartBeat " +
+                                             ", AntallBoliger, AntallBoligerInaktive " +
+                                             " FROM HeartBeat " +
                                               "WHERE KundeNr = @custId " +
                                               "ORDER BY TimeStamp desc;", new { custId = customerId }).ToList();
                 }
             }
-            catch (Exception)
+            catch (Exception ex)
             {
                 return null;
             }

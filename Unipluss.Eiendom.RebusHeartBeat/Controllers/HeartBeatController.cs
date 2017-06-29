@@ -14,13 +14,13 @@ namespace Unipluss.Eiendom.RebusHeartBeat.Controllers
 
         public HeartBeatController()
         {
-            _heartBeatRepository = new HeartBeatRepository();
-            _heartBeats = new List<HeartBeat>();
+            this._heartBeatRepository = new HeartBeatRepository();
+            this._heartBeats = new List<HeartBeat>();
         }
 
         public HttpResponseMessage Get()
         { 
-            _heartBeats = _heartBeatRepository.GetLastBeats();
+            this._heartBeats = _heartBeatRepository.GetLastBeats();
 
             return _heartBeats != null ? Request.CreateResponse(HttpStatusCode.OK, _heartBeats) : 
                 Request.CreateErrorResponse(HttpStatusCode.NoContent, "Missing content");
@@ -28,7 +28,7 @@ namespace Unipluss.Eiendom.RebusHeartBeat.Controllers
 
         public HttpResponseMessage Get(int id)
         {
-            _customerDetails = _heartBeatRepository.GetDetails(id);
+            this._customerDetails = _heartBeatRepository.GetDetails(id);
 
             return _customerDetails != null ? Request.CreateResponse(HttpStatusCode.OK, _customerDetails) : 
                 Request.CreateErrorResponse(HttpStatusCode.NoContent, "Missing content");
