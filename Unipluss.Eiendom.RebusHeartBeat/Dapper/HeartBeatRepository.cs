@@ -48,7 +48,7 @@ namespace Unipluss.Eiendom.RebusHeartBeat.Dapper
                     db.Open();
 
                    items = db.Query<Message>("SELECT TOP 30 DATEADD(hour,2,TimeStamp) as TimeStamp, MachineName, Info, Os, " +
-                                             "UAUrl, SqlOk, UniSqlOk, V3Ok, RedisOk, UAVersion, UAUrl, universion, sql_server_version, [disk], cpuThisProcess, cpuTotal, availableRam, UaRebusOk, UaQueueServiceOk" +
+                                             "UAUrl, SqlOk, UniSqlOk, V3Ok, RedisOk, UAVersion, UAUrl, universion, sql_server_version, [disk], cpuThisProcess, cpuTotal, availableRam, UaRebusOk, UaQueueServiceOk," +
                                              "(CASE WHEN DateDiff(MINUTE, TimeStamp, GETDATE()) > 6 THEN 0 ELSE 1 END) as RebusAlive " +
                                              ", AntallBoliger, AntallBoligerInaktive " +
                                              " FROM HeartBeat " +
