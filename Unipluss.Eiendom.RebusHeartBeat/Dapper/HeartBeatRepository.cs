@@ -20,7 +20,7 @@ namespace Unipluss.Eiendom.RebusHeartBeat.Dapper
                     string msg = ";WITH cte AS " +
                               "(SELECT DATEADD(hour,2,TimeStamp) as Time, KundeNr as Id, KundeNavn as CustomerName, " +
                               "(CASE WHEN DateDiff(MINUTE,TimeStamp,GETDATE()) > 6 THEN 0 ELSE 1 END) as RebusAlive, " +
-                              "SqlOk, UniSqlOk, V3Ok, RedisOk, uaUrl, universion, sql_server_version, [disk], cpuThisProcess, cpuTotal,	availableRam, UaRebusOk, UaQueueServiceOk" +
+                              "SqlOk, UniSqlOk, V3Ok, RedisOk, uaUrl, universion, sql_server_version, [disk], cpuThisProcess, cpuTotal,	availableRam, UaRebusOk, UaQueueServiceOk," +
                               "(CASE WHEN (SqlOk = 1 and UniSqlOk = 1 and V3Ok = 1 and RedisOk = 1 and UaRebusOk = 1) THEN 1 ELSE 0 END) as uaOk, " +
                               "(CASE WHEN (uaURL is null or uaURL = 'Missing url') THEN 1 ELSE 0 END) as uaUndefined, " +
                               "ROW_NUMBER() " +
