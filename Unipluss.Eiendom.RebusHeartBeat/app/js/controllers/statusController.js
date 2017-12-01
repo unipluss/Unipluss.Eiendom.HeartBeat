@@ -26,7 +26,8 @@ heartBeatApp.controller('statusController', function ($scope, $timeout, heartBea
                 $scope.lastBeats[i].V3Ok &&
                 $scope.lastBeats[i].RedisOk &&
                 $scope.lastBeats[i].SqlOk &&
-                $scope.lastBeats[i].UaRebusOk
+                $scope.lastBeats[i].UaRebusOk &&
+                $scope.lastBeats[i].UaQueueServiceOk
             ) {
                 $scope.lastBeats[i].AllOk = true;
                 $scope.lastBeats[i].statusText = 'Rebus og UA Online';
@@ -98,6 +99,9 @@ heartBeatApp.controller('statusController', function ($scope, $timeout, heartBea
             }
             if (!message.UaRebusOk) {
                 msg += " Ua rebus";
+            }
+            if (!message.UaQueueServiceOk) {
+                msg += " Ua Queue";
             }
         }
         else {

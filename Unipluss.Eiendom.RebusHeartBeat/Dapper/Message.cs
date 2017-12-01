@@ -22,6 +22,7 @@ namespace Unipluss.Eiendom.RebusHeartBeat.Dapper
         public string CpuTotal { get; set; }
         public string AvailableRam { get; set; }
         public bool UaRebusOk { get; set; }
+        public bool UaQueueServiceOk { get; set; }
         public int AntallBoliger { get; set; }
         public int AntallBoligerInaktive { get; set; }
     }

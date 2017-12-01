@@ -26,6 +26,9 @@
             <md-card ng-class="{true:'uaNormal', false:'warning'}[messages[0].UaRebusOk]">
                 <div class="padding-small">UA Rebus </div>
             </md-card>
+            <md-card ng-class="{true:'uaNormal', false:'warning'}[messages[0].UaQueueServiceOk]">
+                <div class="padding-small">UA Queue </div>
+            </md-card>
             <h4><b>SQL version:</b> {{messages[0].Sql_server_version}}</h4>
             <h4><b>Ledig RAM:</b> {{messages[0].AvailableRam}} MB</h4>
             <h4><b>Rebus CPU:</b> {{messages[0].CpuThisProcess}} %</h4>
