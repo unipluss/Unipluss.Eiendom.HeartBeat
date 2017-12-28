@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 using Microsoft.Ajax.Utilities;
 using Unipluss.Eiendom.RebusHeartBeat.Dapper;
@@ -37,7 +38,17 @@ namespace Unipluss.Eiendom.RebusHeartBeat.Code
         public static double ToDouble(this string str)
         {
             double d = 0.0;
-            if (!double.TryParse(str, out d))
+            if (!double.TryParse(str,out d))
+            {
+                return 0.0;
+            }
+            return d;
+        }
+
+        public static double ToDoubleNbNo(this string str)
+        {
+            double d = 0.0;
+            if (!double.TryParse(str, NumberStyles.AllowDecimalPoint, CultureInfo.GetCultureInfoByIetfLanguageTag("nb-NO"), out d))
             {
                 return 0.0;
             }
@@ -49,6 +60,13 @@ namespace Unipluss.Eiendom.RebusHeartBeat.Code
             double d = str.ToDouble();
             d = Math.Round(d, 2);
             return d.ToString();
+        }
+
+        public static string ToTwoDecimalDbNo(this string str)
+        {
+            double d = str.ToDoubleNbNo();
+            d = Math.Round(d, 2);
+            return d.ToString(CultureInfo.GetCultureInfoByIetfLanguageTag("nb-NO"));
         }
     }
 }

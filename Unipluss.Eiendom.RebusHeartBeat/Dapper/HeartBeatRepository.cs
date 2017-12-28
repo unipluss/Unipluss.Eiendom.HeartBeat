@@ -61,8 +61,8 @@ namespace Unipluss.Eiendom.RebusHeartBeat.Dapper
                 return null;
             }
             items.ForEach(x=> x.PoupulateDiskList());
-            items.ForEach(x=> x.CpuThisProcess = x.CpuThisProcess.ToTwoDecimal());
-            items.ForEach(x => x.CpuTotal = x.CpuTotal.ToTwoDecimal());
+            items.ForEach(x=> x.CpuThisProcess = x.CpuThisProcess.ToTwoDecimalDbNo());
+            items.ForEach(x => x.CpuTotal = x.CpuTotal.ToTwoDecimalDbNo());
             return items;
         }
     }
